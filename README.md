@@ -1,6 +1,6 @@
 <div align="center">
 
-DESENVOLVIMENTO WEB
+🌐 DESENVOLVIMENTO WEB
 
 Repositório oficial da disciplina
 
@@ -14,33 +14,33 @@ Ambiente central para desenvolvimento, versionamento e acompanhamento das ativid
 
 </div>
 
-SOBRE O REPOSITÓRIO
+📘 Sobre o repositório
 
 Este repositório reúne os materiais práticos desenvolvidos durante a disciplina de Desenvolvimento Web.
 
 O objetivo é manter os projetos organizados em um único ambiente, permitindo acompanhar a evolução do código ao longo das aulas, revisar implementações anteriores e utilizar o GitHub como parte do processo de desenvolvimento.
 
-O repositório será utilizado principalmente para:
-
 <table>
 <tr>
-<td width="33%" valign="top">
+<td width="33%" valign="top" align="center">
 
-DESENVOLVIMENTO
+💻 Desenvolvimento
 
 Construção das atividades e projetos propostos ao longo da disciplina.
 
 </td>
-<td width="33%" valign="top">
 
-VERSIONAMENTO
+<td width="33%" valign="top" align="center">
+
+🔄 Versionamento
 
 Registro da evolução dos códigos por meio de commits e histórico de alterações.
 
 </td>
-<td width="33%" valign="top">
 
-ORGANIZAÇÃO
+<td width="33%" valign="top" align="center">
+
+📂 Organização
 
 Centralização dos arquivos utilizados durante as aulas e exercícios práticos.
 
@@ -48,71 +48,86 @@ Centralização dos arquivos utilizados durante as aulas e exercícios práticos
 </tr>
 </table>
 
-TECNOLOGIAS
+🛠️ Tecnologias e ferramentas
+
+<div align="center">
 
 <table>
 <tr>
-<td width="25%" align="center" valign="top">
+
+<td align="center" width="25%">
+
+<a href="https://www.w3schools.com/html/">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="72" alt="HTML5">
+</a>
 
 HTML5
 
-Estrutura e organização do conteúdo das páginas.
+Estrutura e semântica das páginas.
 
-<br>
-
-ABRIR REFERÊNCIA
+Acessar referência →
 
 </td>
 
-<td width="25%" align="center" valign="top">
+<td align="center" width="25%">
+
+<a href="https://www.w3schools.com/css/">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="72" alt="CSS3">
+</a>
 
 CSS3
 
-Estilização, layout e responsividade das interfaces.
+Estilização, layout e responsividade.
 
-<br>
-
-ABRIR REFERÊNCIA
+Acessar referência →
 
 </td>
 
-<td width="25%" align="center" valign="top">
+<td align="center" width="25%">
 
-VISUAL STUDIO CODE
+<a href="https://code.visualstudio.com/">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="72" alt="Visual Studio Code">
+</a>
 
-Editor utilizado para desenvolvimento dos projetos.
+VS Code
 
-<br>
+Editor utilizado durante o desenvolvimento.
 
-FAZER DOWNLOAD
+Baixar VS Code →
+
+</td>
+
+<td align="center" width="25%">
+
+<a href="https://desktop.github.com/download/">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="72" alt="GitHub Desktop">
+</a>
+
+GitHub Desktop
+
+Versionamento e sincronização dos projetos.
+
+Baixar GitHub Desktop →
 
 </td>
 
-<td width="25%" align="center" valign="top">
-
-GITHUB DESKTOP
-
-Ferramenta utilizada para versionamento e sincronização.
-
-<br>
-
-FAZER DOWNLOAD
-
-</td>
 </tr>
 </table>
 
-FLUXO DE TRABALHO
+</div>
+
+⚙️ Fluxo de trabalho
 
 O desenvolvimento das atividades seguirá um fluxo simples e organizado:
 
 <table>
 <tr>
+
 <td width="25%" align="center">
 
 01
 
-DESENVOLVER
+💻 DESENVOLVER
 
 Criar ou atualizar a atividade no VS Code.
 
@@ -122,7 +137,7 @@ Criar ou atualizar a atividade no VS Code.
 
 02
 
-TESTAR
+🧪 TESTAR
 
 Executar o projeto e validar o resultado no navegador.
 
@@ -132,7 +147,7 @@ Executar o projeto e validar o resultado no navegador.
 
 03
 
-VERSIONAR
+🔄 VERSIONAR
 
 Registrar as alterações com uma mensagem de commit clara.
 
@@ -142,17 +157,18 @@ Registrar as alterações com uma mensagem de commit clara.
 
 04
 
-ENVIAR
+☁️ ENVIAR
 
 Sincronizar as alterações com o repositório remoto.
 
 </td>
+
 </tr>
 </table>
 
-UTILIZAÇÃO DO REPOSITÓRIO
+🚀 Utilização do repositório
 
-Clonando o projeto
+1. Clonar o projeto
 
 Utilizando o GitHub Desktop:
 
@@ -162,21 +178,21 @@ Ou pelo terminal:
 
 git clone URL_DO_REPOSITORIO
 
-Abrindo no VS Code
+2. Abrir no VS Code
 
 code .
 
-Ou utilize:
+Também é possível utilizar:
 
 File > Open Folder
 
-Executando um projeto
+3. Executar o projeto
 
-Abra o arquivo principal no navegador:
+Abra o arquivo principal diretamente no navegador:
 
 index.html
 
-VERSIONAMENTO
+🔄 Versionamento
 
 Após realizar alterações no projeto:
 
@@ -190,15 +206,16 @@ git add .
 git commit -m "Adiciona formulário de cadastro"
 git push
 
-PADRÃO DE COMMITS
+A mensagem do commit deve indicar de forma objetiva o que foi alterado.
 
-Mensagens de commit devem ser objetivas e explicar claramente o que foi alterado.
+📝 Padrão de commits
 
 <table>
 <tr>
+
 <td width="50%" valign="top">
 
-BOM PADRÃO
+✅ Bons exemplos
 
 Adiciona formulário de contato
 
@@ -212,7 +229,7 @@ Finaliza atividade 02
 
 <td width="50%" valign="top">
 
-EVITE
+❌ Evite
 
 teste
 
@@ -223,24 +240,28 @@ agora vai
 final_final_2
 
 </td>
+
 </tr>
 </table>
 
-PADRÃO DE DESENVOLVIMENTO
+Um bom commit permite entender a alteração sem precisar abrir o código para descobrir o que aconteceu.
+
+✅ Padrão de desenvolvimento
 
 <table>
 <tr>
+
 <td width="50%" valign="top">
 
-CÓDIGO
+💻 Código
 
-Manter o código indentado.
+Manter o código indentado;
 
-Utilizar nomes claros e consistentes.
+Utilizar nomes claros e consistentes;
 
-Evitar repetições desnecessárias.
+Evitar repetições desnecessárias;
 
-Separar responsabilidades sempre que possível.
+Separar responsabilidades sempre que possível;
 
 Comentar apenas trechos que realmente precisam de explicação.
 
@@ -248,33 +269,35 @@ Comentar apenas trechos que realmente precisam de explicação.
 
 <td width="50%" valign="top">
 
-ORGANIZAÇÃO
+📂 Organização
 
-Manter arquivos relacionados agrupados.
+Manter arquivos relacionados agrupados;
 
-Utilizar nomes de arquivos simples e descritivos.
+Utilizar nomes de arquivos simples e descritivos;
 
-Evitar arquivos temporários no repositório.
+Evitar arquivos temporários no repositório;
 
-Manter imagens e recursos organizados.
+Manter imagens e recursos organizados;
 
 Preservar uma estrutura fácil de navegar.
 
 </td>
+
 </tr>
 
 <tr>
+
 <td width="50%" valign="top">
 
-TESTES
+🧪 Testes
 
-Executar o projeto antes de enviar.
+Executar o projeto antes de enviar;
 
-Validar links e imagens.
+Validar links e imagens;
 
-Conferir o comportamento no navegador.
+Conferir o comportamento no navegador;
 
-Utilizar o DevTools para análise quando necessário.
+Utilizar o DevTools quando necessário;
 
 Revisar alterações antes do commit.
 
@@ -282,23 +305,24 @@ Revisar alterações antes do commit.
 
 <td width="50%" valign="top">
 
-VERSIONAMENTO
+🔄 Git
 
-Criar commits por etapa concluída.
+Criar commits por etapa concluída;
 
-Utilizar mensagens objetivas.
+Utilizar mensagens objetivas;
 
-Sincronizar o repositório regularmente.
+Sincronizar o repositório regularmente;
 
-Evitar commits sem contexto.
+Evitar commits sem contexto;
 
 Não enviar arquivos desnecessários.
 
 </td>
+
 </tr>
 </table>
 
-REFERÊNCIAS RÁPIDAS
+🔗 Referências rápidas
 
 <div align="center">
 
@@ -306,7 +330,7 @@ REFERÊNCIAS RÁPIDAS
 
 </div>
 
-PROFESSOR
+👨‍🏫 Professor
 
 <div align="center">
 
@@ -316,9 +340,9 @@ Vinícius Tessari
 
 <div align="center">
 
-DESENVOLVIMENTO WEB
+🌐 Desenvolvimento Web
 
-Prática. Organização. Versionamento. Evolução.
+Prática • Organização • Versionamento • Evolução
 
 <br>
 
