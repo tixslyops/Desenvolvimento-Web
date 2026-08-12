@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERFIL Profissional</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Vinicius Tessari</h1>
+        <p>Professor de Web</p>
+        <nav>
+            <a href="#sobre">Sobre</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#experiencia">Experiência</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="sobre">
+            <h2>Sobre mim</h2>
+            <img src="../img/imagem.jpg" alt="PESCARIA" width="500">
+            <br>
+            <br>
+            <a href="https://www.youtube.com/playlist?list=PLAZQNgCt-nLuwX0yHu2gppmwIcYmiMe0b">PESCARIA</a>
+            <p>Pescar é bom.</p>
+        </section>
+
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>Pesca esportiva</li>
+                <li>Andar de Barco</li>
+                <li>Nadar no Rio</li>
+            </ul>
+        </section>
+        <section id="experiencia">
+            <h2>Experiência de Pescaria</h2>
+            <article>
+                <h3>Iscas de Peixe</h3>
+                <p>As iscas vairam de acordo com o tipo de peixe que eu estou pescando</p>
+            </article>
+        </section>
+        <section id="tabela-experiencias">
+            <h2> Resumo de Experiências</h2>
+
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Área</th>
+                        <th>Experiência</th>
+                        <th>Peixe</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Pescaria Esportiva</td>
+                        <td>Rio Longo</td>
+                        <td>Tilápia</td>
+                    </tr>
+                    <tr>
+                        <td>Pescaria Esportiva</td>
+                        <td>Rio Longo</td>
+                        <td>Tilápia</td>
+                    </tr>
+                    <tr>
+                        <td>Pescaria Esportiva</td>
+                        <td>Rio Longo</td>
+                        <td>Tilápia</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="cadastro">
+            <h2>Pequeno formulário para Pescar</h2>
+
+            <form>
+                <p>
+                    <label for="nome-form">Nome:</label>
+                    <input type="text" id="nome-form" name="nome-form" required>
+                </p>
+                <p>
+                    <label for="idade">Idade:</label>
+                    <input type="number" id="idade" name="idade" min="0">
+                </p>
+                <p>
+                    <label for="pesca">Pesca:</label>
+                    <select id="pesca" name="pesca">
+                        <option value="">Selecione</option>
+                        <option value="amadora">Amadora</option>
+                        <option value="esportiva">Esportiva</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="observacao">Observação:</label><br>
+                    <textarea id="observacao" name="observacao" rows="5" cols="30"></textarea>
+                </p>
+                <button type="submit">Cadastrar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Vinicius Tessari.</p>
+    </footer>
+</body>
+</html>
