@@ -1,64 +1,120 @@
-# 🌐 Desenvolvimento Web — HTML & CSS
+🌐 Desenvolvimento Web
 
-> Repositório destinado às aulas práticas de **Desenvolvimento Web**, com foco inicial na construção de páginas utilizando **HTML5** e **CSS3**.
+Repositório oficial da disciplina de Desenvolvimento Web, utilizado para armazenar atividades, exercícios, exemplos práticos e projetos desenvolvidos ao longo das aulas.
 
----
+🎯 Objetivo
 
-## 📚 Sobre a disciplina
+O objetivo deste repositório é centralizar todo o material prático da disciplina, permitindo acompanhar a evolução dos projetos e manter os códigos organizados durante o semestre.
 
-Este repositório será utilizado para armazenar os exemplos, exercícios, projetos e atividades desenvolvidos durante as aulas.
+Aqui serão armazenados:
 
-A proposta é aprender desenvolvimento web de forma progressiva, começando pela estrutura de uma página com **HTML** e avançando para estilização, organização de layouts e responsividade utilizando **CSS**.
+Exemplos desenvolvidos em aula;
 
-Ao longo das aulas, os projetos serão construídos na prática, permitindo acompanhar a evolução desde uma página HTML simples até interfaces web mais completas.
+Exercícios práticos;
 
----
+Atividades;
 
-## 🎯 Objetivos
+Projetos;
 
-Ao longo das aulas, o aluno deverá ser capaz de:
+Arquivos de apoio;
 
-- Compreender como uma página web funciona;
-- Criar documentos utilizando HTML5;
-- Utilizar corretamente tags e atributos HTML;
-- Estruturar páginas utilizando HTML semântico;
-- Trabalhar com textos, imagens, links e listas;
-- Criar tabelas;
-- Desenvolver formulários;
-- Compreender a estrutura de arquivos de um projeto web;
-- Aplicar estilos utilizando CSS;
-- Trabalhar com cores, fontes, bordas e espaçamentos;
-- Utilizar classes e identificadores;
-- Criar layouts utilizando **Flexbox** e **Grid**;
-- Desenvolver páginas responsivas;
-- Utilizar boas práticas de organização e desenvolvimento.
+Códigos de referência.
 
----
+🛠️ Tecnologias Utilizadas
 
-# 🧱 Tecnologias utilizadas
+HTML5
 
-<div>
-    <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
-    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
-    <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
-</div>
+Documentação e referência:
 
----
+👉 https://www.w3schools.com/html/
 
-# 📂 Estrutura inicial do repositório
+CSS3
 
-```text
+Documentação e referência:
+
+👉 https://www.w3schools.com/css/
+
+Visual Studio Code
+
+Editor utilizado durante o desenvolvimento:
+
+👉 https://code.visualstudio.com/
+
+GitHub Desktop
+
+Ferramenta utilizada para versionamento e sincronização dos projetos:
+
+👉 https://desktop.github.com/download/
+
+📁 Organização do Repositório
+
+A estrutura do repositório poderá crescer conforme o avanço da disciplina.
+
+Exemplo de organização:
+
 desenvolvimento-web/
 │
-├── aula-01-html/
-│   ├── index.html
-│   └── img/
-│       └── imagem.jpg
+├── atividades/
+├── exercicios/
+├── projetos/
+├── exemplos/
 │
-├── aula-02-css/
-│   ├── index.html
-│   ├── style.css
-│   └── img/
-│       └── imagem.jpg
-│
+└── README.md
+
+Cada pasta poderá conter os arquivos necessários para o desenvolvimento das atividades propostas.
+
+💻 Como Utilizar
+
+Clone o repositório utilizando o GitHub Desktop ou Git:
+
+git clone URL_DO_REPOSITORIO
+
+Depois, abra a pasta no Visual Studio Code:
+
+code .
+
+Os arquivos HTML podem ser abertos diretamente no navegador.
+
+📌 Boas Práticas
+
+Ao desenvolver as atividades:
+
+Organize corretamente as pastas;
+
+Utilize nomes claros para arquivos e diretórios;
+
+Mantenha o código indentado;
+
+Comente trechos importantes;
+
+Teste os arquivos antes de enviar;
+
+Faça commits com mensagens objetivas;
+
+Evite enviar arquivos desnecessários ao repositório.
+
+🔄 Versionamento
+
+Sempre que finalizar uma etapa importante:
+
+git add .
+git commit -m "Descrição da alteração"
+git push
+
+Exemplo:
+
+git commit -m "Adiciona atividade de HTML e CSS"
+
+👨‍💻 Professor
+
+Vinícius Tessari
+
+<div align="center">
+
+Desenvolvimento Web
+
+Prática, organização e evolução constante.
+
+HTML5 • CSS3 • GitHub
+
+</div>
