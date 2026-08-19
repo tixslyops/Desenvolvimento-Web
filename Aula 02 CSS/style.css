@@ -1,12 +1,12 @@
 :root {
-    --cor-primaria: #173b82;
-    --cor-primaria-escura: #0f2b5f;
-    --cor-destaque:#2563eb;
-    --cor-fundo:#6b7280;
+    --cor-primaria: #6f1b26;
+    --cor-primaria-escura: #dd9ddc;
+    --cor-destaque:#f7f9fe;
+    --cor-fundo:#cac1d2;
     --cor-branca: #f3f4f6;
     --cor-borda: #ffffff;
-    --cor-texto: #1f2937;
-    --sombra-padrao: #d1d5db;
+    --cor-texto: #200e0e;
+    --sombra-padrao: #07071c;
     --raio-borda: 14px;
     --largura-maxima: 1100px;
 }
@@ -38,15 +38,3 @@ header {
     color: var(--cor-branca);
     padding: 50px 20px;
 }
-alwidfgkbD´S~JF ASDF
-ASDF
-ASD
-feFuncASDF
-ASD
-feFuncASDF
-ASDF
-ASD
-feBlendASDF
-ASD
-feFuncASDF
-ASDF
