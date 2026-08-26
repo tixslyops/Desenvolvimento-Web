@@ -9,6 +9,7 @@
 <body>
     <header>
         <h1>Letícia Reis</h1>
+        <img class="foto-perfil" src="img/img/imagem.jpeg" alt="Foto de Letícia Reis">
         <p>DEV RPA</p>
         <nav>
             <a href="#sobre">| Sobre</a>
@@ -125,7 +126,36 @@
                 </tbody>
             </table>
         </section>    
+        <section id="formulario">
+            <h2>Pequeno formulário para Contato</h2>
+            <form action="processar_formulario.php" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required><br><br>
 
+                <label for="Idade">Idade:</label>
+                <input type="number" id="Idade" name="Idade"><br><br>
+
+                <label for="assunto">Assunto:</label><br>
+                <select id="assunto" name="assunto">
+                    <option value="duvida">Dúvida</option>
+                    <option value="serviços">Orçamento de serviços de automação</option>
+                    <option value="estagio">Oportunidade de estágio</option>
+                    <option value="outro">Outro</option>
+                </select><br><br>
+
+                <label for="observacao">Observação</label><br>
+                <textarea id="observacao" name="observacao" rows="4" cols="50" required></textarea><br><br>
+
+                <input type="submit" value="cadastrar">
+            </form>
+
+            <br><br>
+            <p>Música que gosto de ouvir ("Monochromatic" - $uicideBoy$):</p>
+            <a href="https://open.spotify.com/intl-pt/track/6dIIwvSCxyixY2y9vJmyVg?si=f4bec1c644994e2c" target="_blank">https://open.spotify.com/intl-pt/track/6dIIwvSCxyixY2y9vJmyVg?si=f4bec1c644994e2c</a>
+        </section>
+    </main>
+</body>
+</html>
         <section id="contato">
             <h2>Contato</h2>
             <p>Email: <a href="mailto:leticialrjr@gmail.com">leticialrjr@gmail.com</a></p>
