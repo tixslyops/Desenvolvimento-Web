@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio do Banco - Simulador</title>
+</head>
+<body>
+    <h1>Simulador de Banco</h1>
+    <p>Saldo Disponível: R$ <span id="saldo">1000,00</span></p>
+
+    <select id="opcao">
+        <option value="">Selecione uma opção</option>
+        <option value="Consultar Saldo">Consultar Saldo</option>
+        <option value="Depositar">Depositar</option>
+        <option value="Sacar">Sacar</option>
+        <option value="extrato">Ver Extrato</option>
+    </select>
+    
+    <input type="number" id="valor">
+
+    <button type="button" id="executar">Executar</button>
+
+    <div id="mensagem" style="white-space: pre-line;"></div>
+
+    <script src="desafio.js"></script>
+</body>
+</html>
