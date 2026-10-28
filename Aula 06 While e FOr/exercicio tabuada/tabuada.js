@@ -1,22 +1,22 @@
+const botao = document.getElementById("escolher");
 
-const botao = document.getElementById("calcular");
-
-const lista = document.getElementById("lista");
+const resultado = document.getElementById("resultado");
 
 botao.addEventListener("click", function() {
+    const numeros = document.getElementById("numeros").value;
 
-    const numero = document.getElementById("numero").value;
+    resultado.innerHTML = "";
+    if (numeros === "") {
+        resultado.textContent = "Selecione um número!";
+    } else {
+        for (let i = 1; i <= 10; i++) {
 
-    lista.innerHTML = "";
+            const item = document.createElement("p");
 
-    for (let i = 1; i <= 10; i++) {
+            item.textContent = `${numeros} x ${i} = ${numeros * i}`;
 
-        const item = document.createElement("li");
-
-        item.textContent = `${numero} x ${i} = ${numero * i}`;
-
-        lista.appendChild(item);
-
+            resultado.appendChild(item);
+        }
     }
 
 });

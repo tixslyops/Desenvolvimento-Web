@@ -1,23 +1,31 @@
-
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Tabuada</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 <body>
+    <p>escolha um numero de 1 a 10.</p>
 
-    <h1>Tabuada com FOR</h1>
+    <select id="numeros">
+        <option value="">selecione</option>
+        <option value ="1">1</option>
+        <option value ="2">2</option>
+        <option value ="3">3</option>
+        <option value ="4">4</option>
+        <option value ="5">5</option>
+        <option value ="6">6</option>
+        <option value ="7">7</option>
+        <option value ="8">8</option>
+        <option value ="9">9</option>
+        <option value ="10">10</option>
+    </select>
 
-    <p>Digite um número para gerar a tabuada:</p>
+    <button type="button" id="escolher">escolher numero</button>
 
-    <input type="number" id="numero">
-
-    <button type="button" id="calcular">Calcular</button>
-
-    <ul id="lista"></ul>
+    <p id="resultado"></p>
 
     <script src="tabuada.js"></script>
-
 </body>
 </html>
